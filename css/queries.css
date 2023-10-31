@@ -1,0 +1,37 @@
+/* 668px  - smaller screens*/
+@media (max-width: 41.75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+  .card {
+    width: 37.5rem;
+    flex-direction: column;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .card-body {
+    padding: 3rem;
+  }
+
+  .card-title {
+    margin-bottom: 2rem;
+  }
+  .card-title--separator {
+    display: none;
+  }
+
+  .card-text {
+    margin-bottom: 2.4rem;
+  }
+
+  .card-price {
+    margin-bottom: 2rem;
+  }
+}

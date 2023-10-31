@@ -1,0 +1,87 @@
+.card {
+  display: flex;
+  width: 62rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+  object-fit: cover;
+  width: 30rem;
+  display: block;
+}
+
+.card-body {
+  padding: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.card-note {
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 400;
+  color: var(--gray-blue);
+}
+
+.card-title {
+  font-size: 3rem;
+  font-family: "Fraunces", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 3rem;
+}
+
+.card-text {
+  color: var(--gray-blue);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.card-price {
+  font-family: "Fraunces", sans-serif;
+  font-size: 3rem;
+  color: var(--primary-first);
+  margin-bottom: 3rem;
+}
+
+.old-price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  color: var(--gray-blue);
+  text-decoration: line-through;
+  vertical-align: middle;
+  margin-left: 2rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: inherit;
+  font-weight: 600;
+  padding: 1.4rem 0;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: var(--primary-first);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-first-shade);
+}
+
+.btn-icon {
+  margin-right: 1rem;
+}
