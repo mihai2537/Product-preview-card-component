@@ -45,6 +45,7 @@
 
 .card-price {
   font-family: "Fraunces", sans-serif;
+  font-style: normal;
   font-size: 3rem;
   color: var(--primary-first);
   margin-bottom: 3rem;
@@ -55,7 +56,6 @@
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   color: var(--gray-blue);
-  text-decoration: line-through;
   vertical-align: middle;
   margin-left: 2rem;
 }
@@ -68,6 +68,7 @@
   font-weight: 600;
   padding: 1.4rem 0;
   cursor: pointer;
+  transition: all 200ms;
 
   display: flex;
   justify-content: center;
